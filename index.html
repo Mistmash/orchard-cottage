@@ -35,6 +35,21 @@
     .description, .amenities, .contact {
       margin-bottom: 40px;
     }
+    
+    .scroll-gallery {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 10px 0;
+      scroll-snap-type: x mandatory;
+    }
+    
+    .scroll-gallery img {
+      height: 300px;
+      border-radius: 10px;
+      flex-shrink: 0;
+      scroll-snap-align: start;
+    }
 
     h2 {
       color: #d88c00;
@@ -90,15 +105,11 @@
       <h2>About the Property</h2>
       <p>Sunny Retreat is a charming 2-bedroom cottage nestled in the tranquil countryside. Enjoy peaceful mornings, scenic walks, and cozy evenings in a beautifully furnished space designed for comfort and relaxation.</p>
     </section>
-
-    <section class="gallery">
-      <h2>Gallery</h2>
-      <img src="cottage.avif" alt="Living.jpg" alt="Bedroom<img src="country.jpg" alt="Kitchenction class="amenities">
     
     <section class="gallery">
       <h2>Gallery</h2>
       <div class="scroll-gallery">
-        <img src="images/cottage.avif src="images/country.jpg alt="Gardenhoto4.avif
+        <img src="cottage.avif" src="country.jpg" alt="Gardenhoto4.avif"
     </section>
 
      <section class="gallery"> 
