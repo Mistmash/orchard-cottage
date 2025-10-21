@@ -7,35 +7,74 @@
   <title>Sunny Retreat Holiday Rental</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f4f4f4;
+      background-color: #fff8e1;
+      color: #333;
     }
+
     header {
-      background: #0077cc;
-      color: white;
-      padding: 20px;
+      background-color: #f4c542;
+      color: #fff;
+      padding: 40px 20px;
       text-align: center;
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
     .container {
       padding: 20px;
+      max-width: 1000px;
+      margin: auto;
     }
+
+    .description, .amenities, .contact {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #d88c00;
+      border-bottom: 2px solid #f4c542;
+      padding-bottom: 5px;
+    }
+
+    .gallery {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      padding: 10px 0;
+    }
+
     .gallery img {
-      width: 100%;
-      max-width: 600px;
-      margin: 10px 0;
-      border-radius: 8px;
+      height: 300px;
+      border-radius: 10px;
+      flex-shrink: 0;
     }
-    .amenities, .contact {
-      margin-top: 30px;
+
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
     }
+
     footer {
-      background: #333;
+      background-color: #f4c542;
       color: white;
       text-align: center;
-      padding: 10px;
+      padding: 20px;
       margin-top: 40px;
+    }
+
+    a {
+      color: #d88c00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
@@ -49,29 +88,25 @@
   <div class="container">
     <section class="description">
       <h2>About the Property</h2>
-      <p>Sunny Retreat is a cozy 2-bedroom cottage located in the heart of the countryside. Ideal for families, couples, or solo travelers looking for peace and relaxation.</p>
+      <p>Sunny Retreat is a charming 2-bedroom cottage nestled in the tranquil countryside. Enjoy peaceful mornings, scenic walks, and cozy evenings in a beautifully furnished space designed for comfort and relaxation.</p>
     </section>
 
     <section class="gallery">
       <h2>Gallery</h2>
-      <imgo1.jpg
-      <img src="photo2.jpg" alt="Bedroomjpg"ion>
-
-    <section class="amenities">
+      <img src="cottage.avif" alt="Living.jpg" alt="Bedroom<img src="country.jpg" alt="Kitchenction class="amenities">
       <h2>Amenities</h2>
       <ul>
         <li>Free Wi-Fi</li>
         <li>Fully equipped kitchen</li>
         <li>Private garden</li>
         <li>Pet-friendly</li>
-        <li>Parking available</li>
+        <li>On-site parking</li>
       </ul>
     </section>
 
     <section class="contact">
       <h2>Contact & Booking</h2>
-      <p>Email: <a href="mailto:info@sunnyretreat.co.uk">info@sunnyretreat/p>
-      <p>Phone: 01234 567890</p>
+      <p>Email: <a href="mailto:info@sunnyretreat.co.uk">info@sunnyretreat.co.uk</a></>Phone: 01234 567890</p>
     </section>
   </div>
 
